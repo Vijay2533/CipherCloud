@@ -1,5 +1,5 @@
 #My first program
-Class HelloWorld
+class HelloWorld
 {
 	public static void main(String arg[])
 	{
