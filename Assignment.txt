@@ -1,0 +1,36 @@
+ 1  git init
+    2  ls
+    3  git add .
+    4  git status
+    5  git commit -a -m 'commiting multiple files'
+    6  git status
+    7  git branch feature
+    8  git log --oneline
+    9  git merge feature
+   10  git checkout feature
+   11  vi Sample.java
+   12  javac Sample.java
+   13  vi Sample.java
+   14  javac Sample.java
+   15  git ls-files
+   16  git add .
+   17  git status
+   18  git commit -m 'Java program'
+   19  git diff master
+   20  git diff feature
+   21  git diff
+   22  git show
+   23  git log --oneline master
+   24  git log --oneline feature
+   25  git checkout master
+   26  git merge feature
+   27  git log --oneline feature
+   28  git log --oneline master
+   29  git remote add upstream https://github.com/Vijay2533/CipherCloud.git
+   30  git push upstream --all
+   31  git push upstream --all
+   32  git pull upstream
+   33  git push upstream --all
+   34  git checkout feature
+   35  git push upstream --all
+   36  git log --oneline && git log --oneline master
