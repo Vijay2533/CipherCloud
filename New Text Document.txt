@@ -1,0 +1,12 @@
+$git init
+$git add .
+$git commit -m 'My First program'
+$git branch feature
+$git checkout feature
+Now create few files in the feature branch. 
+$git commit -m 'Files added in the feature branch'
+$git checkout master
+$git merge feature 
+$git remote add upstream https://github.com/Vijay2533/CipherCloud.git
+$git push upstream --all
+$give the username and access token (generated from github)
